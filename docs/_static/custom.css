@@ -1,0 +1,62 @@
+/* Custom styles for RSSCopilot documentation */
+
+/* Improve readability */
+.wy-nav-content {
+  max-width: 900px;
+}
+
+/* Style for code blocks */
+.highlight {
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+/* Style for mermaid diagrams */
+.mermaid {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Style for admonitions */
+.admonition {
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* Style for tables */
+table.docutils {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+
+table.docutils th,
+table.docutils td {
+  padding: 8px;
+  border: 1px solid #e1e4e5;
+}
+
+/* Style for API reference */
+.class,
+.function {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+/* Improve navigation */
+.wy-nav-side {
+  background: #2e3440;
+}
+
+.wy-side-nav-search {
+  background-color: #3b4252;
+}
+
+/* Responsive improvements */
+@media screen and (max-width: 768px) {
+  .wy-nav-content-wrap {
+    margin-left: 0;
+  }
+}

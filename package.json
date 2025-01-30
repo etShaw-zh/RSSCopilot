@@ -1,23 +1,23 @@
 {
-  "name": "zotero-plugin-template",
-  "version": "3.0.3",
-  "description": "Zotero Plugin Template",
+  "name": "zotero-rss-copilot",
+  "version": "0.0.1",
+  "description": "RSSCopilot can generation summary or daily report based on your RSS feeds.",
   "config": {
-    "addonName": "Zotero Plugin Template",
-    "addonID": "addontemplate@euclpts.com",
-    "addonRef": "addontemplate",
-    "addonInstance": "AddonTemplate",
-    "prefsPrefix": "extensions.zotero.addontemplate"
+    "addonName": "Zotero RSS Copilot",
+    "addonID": "zotero-rss-copilot@euclpts.com",
+    "addonRef": "zotero-rss-copilot",
+    "addonInstance": "ZoteroRSSCopilot",
+    "prefsPrefix": "extensions.zotero.zotero-rss-copilot"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/windingwind/zotero-plugin-template.git"
+    "url": "git+https://github.com/etShaw-zh/RSSCopilot.git"
   },
-  "author": "windingwind",
+  "author": "etShaw-zh",
   "bugs": {
-    "url": "https://github.com/windingwind/zotero-plugin-template/issues"
+    "url": "https://github.com/etShaw-zh/RSSCopilot/issues"
   },
-  "homepage": "https://github.com/windingwind/zotero-plugin-template#readme",
+  "homepage": "https://github.com/etShaw-zh/RSSCopilot#readme",
   "license": "AGPL-3.0-or-later",
   "scripts": {
     "start": "zotero-plugin serve",
@@ -39,7 +39,8 @@
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.22.0",
     "zotero-plugin-scaffold": "^0.2.0",
-    "zotero-types": "^3.1.7"
+    "zotero-types": "^3.1.7",
+    "sqlite-vec": "^0.1.6"
   },
   "prettier": {
     "printWidth": 80,
