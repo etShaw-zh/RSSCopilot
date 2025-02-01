@@ -2,7 +2,9 @@
 
 [![zotero target version](https://img.shields.io/badge/Zotero-7-green?style=flat-square&logo=zotero&logoColor=CC2936)](https://www.zotero.org)
 [![Using Zotero Plugin Template](https://img.shields.io/badge/Using-Zotero%20Plugin%20Template-blue?style=flat-square&logo=github)](https://github.com/windingwind/zotero-plugin-template)
-[![License](https://img.shields.io/github/license/etShaw-zh/RSSCopilot?color=2E75B6)](https://github.com/etShaw-zh/RSSCopilot/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/etShaw-zh/rsscopilot)](https://github.com/etShaw-zh/rsscopilot/blob/master/LICENSE)
+[![Documentation Status](https://readthedocs.org/projects/rsscopilot/badge/?version=latest)](https://rsscopilot.readthedocs.io/en/latest/?badge=latest)
+
 
 Welcome to the RSSCopilot documentation! RSSCopilot is a Zotero plugin that enhances the built-in RSS functionality by providing intelligent relevance analysis of RSS feed items based on your existing library.
 
