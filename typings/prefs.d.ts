@@ -7,21 +7,6 @@
 declare namespace _ZoteroTypes {
   interface Prefs {
     PluginPrefsMap: {
-      // Language Model preferences
-      "modelType": string;
-      "apiKey": string;
-      
-      // Relevance Thresholds
-      "thresholdHigh": number;
-      "thresholdMedium": number;
-      "thresholdLow": number;
-      
-      // Performance Settings
-      "dbLocation": string;
-      "cacheSize": number;
-      "autoCleanup": boolean;
-      
-      // Base preferences
       "enable": boolean;
       "input": string;
     };

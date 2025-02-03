@@ -25,7 +25,7 @@ function initializePrefs() {
 
   // Initialize Language Model preferences
   if (!prefs.get(`${baseKey}.modelType`)) {
-    prefs.set(`${baseKey}.modelType`, "model1");
+    prefs.set(`${baseKey}.modelType`, "model2");
   }
   if (!prefs.get(`${baseKey}.apiKey`)) {
     prefs.set(`${baseKey}.apiKey`, "");
@@ -76,11 +76,12 @@ function bindPrefEvents() {
     });
 
   // Threshold Changes
-  ["high", "medium", "low"].forEach((level) => {
+  ["High", "Medium", "Low"].forEach((level) => {
     doc
       .querySelector(`#zotero-prefpane-${config.addonRef}-threshold-${level}`)
       ?.addEventListener("change", async (e) => {
         const value = parseInt((e.target as HTMLInputElement).value);
+        ztoolkit.log(level, value);
         await updateThreshold(level, value);
       });
   });
