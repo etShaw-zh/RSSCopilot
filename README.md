@@ -12,10 +12,6 @@
 
 - A zotero plugin to generate summary or daily report based on your RSS feeds.
 
-## Features
-
-- Event-driven, functional programming, under extensive skeleton;
-
 ## Disclaimer
 
 Use this code under AGPL. No warranties are provided. Keep the laws of your locality in mind!
